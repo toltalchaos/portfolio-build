@@ -1,25 +1,28 @@
 import React from 'react';
-import {Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import Header from './components/header';
+import NavDeck from './components/navDeck';
 
 function App() {
   return (
     <Router>
-      {/* header+navdeck */}
+      <Header/>
+      <NavDeck/>
       <Switch>
         <Route path="/">
-          {/* homepage */}
+          
         </Route>
         <Route path="/git">
-          {/* githubpage */}
+          
         </Route>
         <Route path="/links">
-          {/* links */}
+          
         </Route>
         <Route path="/about">
-          {/* about/hobbies page */}
+          
         </Route>
         <Route path="/contact">
-          {/* contact page */}
+          
         </Route>
       </Switch>
     </Router>
