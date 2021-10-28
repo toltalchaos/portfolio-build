@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Link} from 'react'
 import styled from 'styled-components'
 import { Colors } from './constValues';
 
@@ -36,7 +36,7 @@ const NavDeck = (props) => {
     return ( 
         <NAVDECK>
             <ul>
-                <li> git </li>
+                <li><Link></Link> git </li>
                 <li>links</li>
                 <li>about/hobbies</li>
                 <li>contact</li>
