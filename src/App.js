@@ -3,31 +3,37 @@ import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Header from './components/header';
 import NavDeck from './components/navDeck';
 import LandingPage from './pages/landingPage/landingPage';
+import styled from 'styled-components';
+import { Colors } from './components/constValues';
+import AboutPage from './pages/aboutPage/aboutPage';
 
+const APPSTYLE = styled.div`
+background-color: ${Colors.slateGrey};
+overflow-x: hidden;
+`
 
 function App() {
   return (
+    <APPSTYLE>
     <Router>
       <Header/>
       <NavDeck/>
       <Switch>
-        <Route path="/">
-          <LandingPage/>
+        <Route exact path="/">
+            <LandingPage/>  
         </Route>
-        <Route path="/git">
+        <Route exact path="/links">
           
         </Route>
-        <Route path="/links">
-          
+        <Route exact path="/about">
+          <AboutPage/>
         </Route>
-        <Route path="/about">
-          
-        </Route>
-        <Route path="/contact">
+        <Route exact path="/contact">
           
         </Route>
       </Switch>
     </Router>
+    </APPSTYLE>
   );
 }
 
