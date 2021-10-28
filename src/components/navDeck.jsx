@@ -36,7 +36,7 @@ const NavDeck = (props) => {
     return ( 
         <NAVDECK>
             <ul>
-                <li><Link></Link> git </li>
+                <li> git </li>
                 <li>links</li>
                 <li>about/hobbies</li>
                 <li>contact</li>
