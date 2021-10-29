@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Colors } from '../../components/constValues';
 import NaitLogo from '../../components/images/NaitLogo.webp';
-import AlbumCover from '../../components/images/album-cover.jpg';
+import CodeLogo from '../../components/images/logo2.png';
 import ReactLogo from '../../components/images/react-logo.png';
 import ResumePDF from '../../components/PDFs/BraydonResume.pdf';
 import DeansHonorLetter from '../../components/PDFs/deans-honorrole.pdf';
@@ -125,7 +125,7 @@ const LandingPage = (props) => {
                     <li>- Adobe Suite</li>
                     <li>- Microsoft Office</li>
                 </ul>
-                <img src={AlbumCover} alt="photoshoped album cover" />
+                <img src={CodeLogo} alt="photoshoped album cover" />
             </div>
         </section>
 
