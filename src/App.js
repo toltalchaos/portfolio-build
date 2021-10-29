@@ -6,6 +6,7 @@ import LandingPage from './pages/landingPage/landingPage';
 import styled from 'styled-components';
 import { Colors } from './components/constValues';
 import AboutPage from './pages/aboutPage/aboutPage';
+import ContactPage from './pages/Contact/contact';
 
 const APPSTYLE = styled.div`
 background-color: ${Colors.slateGrey};
@@ -29,7 +30,7 @@ function App() {
           <AboutPage/>
         </Route>
         <Route exact path="/contact">
-          
+          <ContactPage/>
         </Route>
       </Switch>
     </Router>

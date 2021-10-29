@@ -34,13 +34,13 @@ ul{
 @media(min-width: 800px){
     ul{
        
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 @media(min-width: 500px){
     ul{
-        justify-content: space-between;
         display: flex;
+        justify-content: space-evenly;
     }
 }
 `
@@ -71,7 +71,7 @@ const NavDeck = (props) => {
             <ul>
                 <li onClick={gitRedirect}> git </li>
                 <li onClick={linksRedirect}>links</li>
-                <li onClick={aboutRedirect}>about/hobbies</li>
+                {/* <li onClick={aboutRedirect}>about/hobbies</li> */}
                 <li onClick={contactRedirect}>contact</li>
             </ul>
         </NAVDECK>

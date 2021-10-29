@@ -2,12 +2,15 @@ import React from 'react'
 import { useHistory, useLocation } from 'react-router-dom';
 import styled from 'styled-components'
 import { Colors, FontSizing } from './constValues';
+import Headshot from '../components/images/headshots/bw-headshot.webp'
 
 const HEADER = styled.header`
- background-color: ${Colors.slateGrey};
- background-image: url("stonewall.webp");
+ background-color: ${Colors.deepPurple};
+ background-image: url(${Headshot});
  background-position: center;
  background-repeat: no-repeat;
+ background-size: contain;
+ border-radius: 3rem;
  min-height: 50vh;
  width: 100vw;
  overflow: hidden;
@@ -15,6 +18,9 @@ const HEADER = styled.header`
  margin: auto;
  h1{font-size:inherit;}
  div:nth-child(1){
+     position: relative;
+     top:3rem;
+     left: 2rem;
      width: fit-content;
      background-color: ${Colors.gunPurpGrey};
      color: ${Colors.lightGrey};
@@ -22,6 +28,7 @@ const HEADER = styled.header`
      padding: 1rem;
      font-size: ${FontSizing.largeText};
      line-height: 2rem;
+     border-radius: 2rem;
  }
  div:nth-child(1):hover{
      cursor: pointer;
@@ -31,6 +38,7 @@ const HEADER = styled.header`
     padding: 1rem;
     background-color: ${Colors.gunPurpGrey};
      color: ${Colors.lightGrey};
+     border-radius: 2rem;
  }
 
  @media(min-width: 800px){
@@ -63,11 +71,18 @@ function sendHome(){
             <h1>Braydon</h1>
             <p>Tol</p>
         </div>
-        <div>
-            <h2>-About This-</h2>
-            <p>This is a website portfolio that has been built using a react framework designed and developed with a mobile first approach focusing on accessibility for screen readers and non aggressive color and font formatting.  The images in this website have been optimized for the web using exclusively “.webp” file formatting. The website is hosted from Netlify linked to my personal Github repo for this portfolio.</p>
+         <div>
+            <h2>-Summary-</h2>
+            <p>Excited young Full Stack Engineer experienced
+with multi-platform tools with numerous stacks
+focused on accessibility, effective integration
+following best practices, and responsive
+efficient allocation of resources. Confident in
+many programing languages and motivated to
+learn more development technologies by
+experimenting and innovating.</p>
 
-        </div>
+        </div> 
     </HEADER>
     </> );
 }

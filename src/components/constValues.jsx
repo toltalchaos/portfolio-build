@@ -3,9 +3,9 @@ import React from 'react'
 //https://paletton.com/#uid=5410u0keapd8D1Aa9cNh6CUigWP
 
 const Colors ={
-    gunPurpGrey:"#10001D",
+    gunPurpGrey:"#10001dc8",
     slateGrey:"#2C282F",
-    deepPurple:"#48017E",
+    deepPurple:"#08000fd3",
     monoGrey:"#59575B",
     lightGrey:"#BEB6C5",
     lightLavender:"#A488B9"
