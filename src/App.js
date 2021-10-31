@@ -7,9 +7,12 @@ import styled from 'styled-components';
 import { Colors } from './components/constValues';
 import AboutPage from './pages/aboutPage/aboutPage';
 import ContactPage from './pages/Contact/contact';
+import LinksPage from './pages/links/linksPage';
 
 const APPSTYLE = styled.div`
 background-color: ${Colors.slateGrey};
+max-width: 1080px;
+margin: 0 auto;
 overflow-x: hidden;
 `
 
@@ -24,7 +27,7 @@ function App() {
             <LandingPage/>  
         </Route>
         <Route exact path="/links">
-          
+          <LinksPage/>
         </Route>
         <Route exact path="/about">
           <AboutPage/>

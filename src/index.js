@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import App from './App';
 //import 'normalize.css';
 import './reset.css';
+import {Colors} from './components/constValues';
+import styled from 'styled-components';
+
+const INDEX = styled.div`
+background-color: ${Colors.slateGrey};
+`
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <INDEX>
+     <App />
+  </INDEX>
   </React.StrictMode>,
   document.getElementById('root')
 );

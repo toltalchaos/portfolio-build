@@ -2,24 +2,26 @@ import React from 'react'
 import { useHistory, useLocation } from 'react-router-dom';
 import styled from 'styled-components'
 import { Colors } from './constValues';
+import Sticky from 'react-sticky-el';
 
 const NAVDECK = styled.nav`
 background-color: ${Colors.slateGrey};
-max-width: 1080px;
-margin: auto;
+margin: 0 auto;
+position: relative;
 a{
     text-decoration: none;
     color: ${Colors.lightGrey}
 }
 
 ul{
+    position: sticky;
     padding: 0;
     margin: 0 auto;
     color:${Colors.lightGrey};
     list-style-type: none;
     
     text-align: center;
-    position: sticky;
+   
     top:1rem;
     li{
         padding: 1rem;
@@ -67,14 +69,19 @@ const NavDeck = (props) => {
 
 
     return ( 
-        <NAVDECK>
+        <Sticky>
+             <NAVDECK>
             <ul>
-                <li onClick={gitRedirect}> git </li>
-                <li onClick={linksRedirect}>links</li>
+                <li onClick={gitRedirect}> GitHub </li>
+                <li onClick={linksRedirect}>Links</li>
                 {/* <li onClick={aboutRedirect}>about/hobbies</li> */}
-                <li onClick={contactRedirect}>contact</li>
+                <li onClick={contactRedirect}>Contact</li>
             </ul>
-        </NAVDECK>
+         </NAVDECK>
+        </Sticky>
+            
+            
+       
      );
 }
  

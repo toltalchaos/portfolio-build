@@ -9,6 +9,7 @@ max-width: 1080px;
 background-color: ${Colors.gunPurpGrey};
 color:${Colors.lightLavender};
 text-align:center;
+border-radius: 3rem;
 
 section{
     background-color: ${Colors.slateGrey};
