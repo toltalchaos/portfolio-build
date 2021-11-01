@@ -26,9 +26,14 @@ const HEADER = styled.header`
      color: ${Colors.lightGrey};
      margin: 1rem;
      padding: 1rem;
-     font-size: ${FontSizing.largeText};
+     font-size: ${FontSizing.mediumText};
      line-height: 2rem;
      border-radius: 2rem;
+     max-width: 40vw;
+     text-align: center;
+     p{
+         font-size: 2rem;
+     }
  }
  div:nth-child(1):hover{
      cursor: pointer;
@@ -68,12 +73,12 @@ function sendHome(){
     return ( <>
     <HEADER>
         <div onClick={sendHome}>
-            <h1>Braydon</h1>
-            <p>Tol</p>
+            <h1>Braydon Tol</h1>
+            <p>Full Stack Engineer</p>
         </div>
          <div>
             <h2>-Summary-</h2>
-            <p>Excited young Full Stack Engineer experienced
+            <p>Excited young Software Developer experienced
 with multi-platform tools with numerous stacks
 focused on accessibility, effective integration
 following best practices, and responsive

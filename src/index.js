@@ -8,6 +8,7 @@ import styled from 'styled-components';
 
 const INDEX = styled.div`
 background-color: ${Colors.slateGrey};
+min-height: 100vh;
 `
 
 

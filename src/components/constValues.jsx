@@ -15,7 +15,7 @@ const Fonts ={
 }
 const FontSizing={
     regularText:"1rem",
-    mediumText:"2rem",
+    mediumText:"2.5rem",
     largeText:"4rem"
 }
 

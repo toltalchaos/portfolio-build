@@ -125,7 +125,26 @@ const LandingPage = (props) => {
                     <li>- Adobe Suite</li>
                     <li>- Microsoft Office</li>
                 </ul>
-                <img src={CodeLogo} alt="photoshoped album cover" />
+                <img src={CodeLogo} alt="photoshoped logo" />
+            </div>
+        </section>
+        <section>
+            <h3>Soft Skills</h3>
+            <div>
+            <img src={CodeLogo} alt="photoshoped logo" />
+                <ul>
+                    <li>- Communication</li>
+                    <li>- Teamwork</li>
+                    <li>- Time Management</li>
+                    <li>- Critical Thinking/Problem Solving</li>
+                    <li>- Quick Decision Making</li>
+                    <li>- Stress Management</li>
+                    <li>- Diligent and Organized</li>
+                    <li>- Fast Learner</li>
+                    <li>- Creative</li>
+                    <li>- Goal Oriented</li>
+                </ul>
+                
             </div>
         </section>
 
