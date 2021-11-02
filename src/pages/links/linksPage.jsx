@@ -103,9 +103,11 @@ const LinksPage = (props) => {
                 </a>{" "}
                 uses the API to populate its view using GET requests in the URL
                 to dynamically populate the web page based on Json data received
-                from the firebase Database.<br/><br/> the Application is designed to
-                utilize QR codes in retail Store to provide the customers quick
-                access to a generally accepted product review
+                from the firebase Database.
+                <br />
+                <br /> the Application is designed to utilize QR codes in retail
+                Store to provide the customers quick access to a generally
+                accepted product review
               </p>
               <p>
                 <a
@@ -120,17 +122,22 @@ const LinksPage = (props) => {
           </div>
         </section>
         <section>
-          <h3>Video Productioin, Editing and Graphic design</h3>
+          <h3>Video Production, Editing and Graphic design</h3>
           <div>
             <div>
               <p>
-                youtube description shit
+                Through my short experience actively trying to create YouTube
+                content I learned many things; such as branding, many elements
+                of Graphic Design, Video production from scripting to lighting and
+                storyboarding as well as creating a workflow to carry an idea
+                from inception to final product. I wouldn’t call myself an
+                expert in these by any means however I did develop many life
+                long skills through the process. And peeking at 900 and change
+                subscribers before starting school and becoming too busy to
+                pursue YouTube I am very proud of the content I made.
               </p>
               <p>
-                <a
-                  href="https://www.youtube.com/toltalchaos"
-                  target="_blank"
-                >
+                <a href="https://www.youtube.com/toltalchaos" target="_blank">
                   Youtube Chanel
                 </a>
               </p>
