@@ -49,6 +49,10 @@ const ContactPage = (props) => {
             <p>Mobile Phone: </p>
             <a href="tel: 780-700-1815">(780)700-1815</a>
         </div>
+        <div>
+            <p>LinkedIn: </p>
+            <a href="https://www.linkedin.com/in/braydon-tol-aa319b1a1/" target="_blank">LinkedIn - Braydon Tol</a>
+        </div>
         </section>
         {/* <section>
             <h2>secondary contact information????</h2>
