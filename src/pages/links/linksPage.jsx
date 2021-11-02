@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 import { Colors } from '../../components/constValues';
 import Stonks from '../../components/images/stonks.webp';
-import TestQR from '../../components/images/testProductQR.png'
+import TestQR from '../../components/images/testProductQR.png';
+import YouTube from '../../components/images/youtube.png';
 
 const LINKSTYLES = styled.div`
 background-color: ${Colors.gunPurpGrey};
@@ -124,6 +125,7 @@ const LinksPage = (props) => {
         <section>
           <h3>Video Production, Editing and Graphic design</h3>
           <div>
+          <img src={YouTube} alt="YouTube logo" />
             <div>
               <p>
                 Through my short experience actively trying to create YouTube
@@ -142,7 +144,7 @@ const LinksPage = (props) => {
                 </a>
               </p>
             </div>
-            <img src={TestQR} alt="live working QR code" />
+            
           </div>
         </section>
       </LINKSTYLES>
