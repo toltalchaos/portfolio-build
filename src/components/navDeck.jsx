@@ -73,7 +73,7 @@ const NavDeck = (props) => {
              <NAVDECK>
             <ul>
                 <li onClick={gitRedirect}> GitHub </li>
-                <li onClick={linksRedirect}>Links</li>
+                <li onClick={linksRedirect}>Projects</li>
                 {/* <li onClick={aboutRedirect}>about/hobbies</li> */}
                 <li onClick={contactRedirect}>Contact</li>
             </ul>
