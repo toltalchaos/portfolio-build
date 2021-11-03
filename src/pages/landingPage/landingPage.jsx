@@ -94,7 +94,7 @@ const LandingPage = (props) => {
             <h3>About</h3>
             <div>
             <img src={SideHeadshot} alt="photo of NAIT logo" />
-            <p>&emsp;&emsp;These about me sections always suck, so instead of doing the super hyper professional generic about me paragraph nobody likes to read or write il just iterate what my life long friend has told me on many occasions “dude you’ve always got something new going on, how does anyone keep up?” and to that I say…. Not many people can. Id like to imagine I am viewed as a highly motivated individual constantly setting and achieving new goals. If you would like to get to know me more I encourage you to click on that “contact” link right above this section. I look forward to hearing from you! </p>
+            <p>&emsp;&emsp; Worked in a supervisor/team management position for many years in various labor jobs before going to school (NAIT) to achieve a diploma in Computer Software Development. During my time at NAIT I was given the opportunity to work with teams to develop full scale applications as well as assigned individual tasks to develop applications using many different stacks and languages. I am most proficient in JavaScript, C#, Java, and SQL languages.  </p>
             </div>
         </section>
         <section>
