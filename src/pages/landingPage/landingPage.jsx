@@ -31,6 +31,7 @@ h3{
     padding: 1rem;
 }
 section{
+    padding:0.5rem;
     border-radius: 1rem;
     width: fit-content;
     margin: 1rem auto;
@@ -42,11 +43,12 @@ section{
         justify-content: space-evenly;
         align-items: center;
         p,ul{
-            padding:0.5rem;
+            padding:1rem;
             border: 1px solid white;
             margin: 0.5rem;
             border-radius: 1rem;
             list-style-type: none;
+            line-height: 1.25rem;
         }
     }
     img{

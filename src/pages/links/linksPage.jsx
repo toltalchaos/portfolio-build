@@ -21,6 +21,7 @@ a{
     color: inherit;
 }
 section{
+  padding:0.5rem;
     border-radius: 1rem;
     width: fit-content;
     margin: 1rem auto;
@@ -32,12 +33,13 @@ section{
         justify-content: space-evenly;
         align-items: center;
         p,ul{
-            text-align: center;
-            padding:0.5rem;
+          padding:1rem;
             border: 1px solid white;
             margin: 0.5rem;
             border-radius: 1rem;
             list-style-type: none;
+            line-height: 1.25rem;
+            text-align: center;
         }
     }
     img{
