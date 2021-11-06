@@ -89,7 +89,7 @@ const LandingPage = (props) => {
         <section>
             <div>
                 <p className='pdf' onClick={openResume}>RESUME</p>
-                <p className='pdf' onClick={openDiploma}>DIPLOMA</p>
+                <p className='pdf' onClick={openDiploma}>DEANS HONOR ROLE LETTER</p>
             </div>
         </section>
         <section>
