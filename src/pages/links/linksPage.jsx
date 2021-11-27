@@ -4,6 +4,7 @@ import { Colors } from '../../components/constValues';
 import Stonks from '../../components/images/stonks.webp';
 import TestQR from '../../components/images/testProductQR.png';
 import YouTube from '../../components/images/youtube.png';
+import AndroidLogo from '../../components/images/android-logo.png';
 
 const LINKSTYLES = styled.div`
 background-color: ${Colors.gunPurpGrey};
@@ -103,7 +104,7 @@ const LinksPage = (props) => {
                 >
                   {" "}
                   (Link){" "}
-                </a>{" "}
+                </a>
                 uses the API to populate its view using GET requests in the URL
                 to dynamically populate the web page based on Json data received
                 from the firebase Database.
@@ -125,16 +126,52 @@ const LinksPage = (props) => {
           </div>
         </section>
         <section>
+          <h3>Android Application for NFC credentials</h3>
+          <div>
+          <img src={AndroidLogo} alt="default android application logo" />
+            <div>
+              <p>
+                this application written in Java android is designed to
+                demonstrate how to leverage the NFC capabilities to create
+                messages holding multiple records so the user can save and store
+                usernames and passwords.
+                <br />
+                <br />
+                the user has the ability to enter a username and password on the
+                main activity screen and is given the option to write the
+                credentials to an NFC chip. at which point the application will
+                use the NFC capabilities within the phone to save those
+                credentials. once card with saved credentials is scanned the
+                application will fill in the fields appropriately.
+                <br />
+                <br />
+                the user also has the option to "log in" using the given or
+                scanned credentials at which point the application will use an
+                SQLite database to retrieve any saved credentials into a
+                populated list for the user to then choose from to write onto
+                the NFC card or add to the list.
+              </p>
+              <p>
+                <a
+                  href="https://github.com/toltalchaos/Android-NFC-credential-Application/tree/main"
+                  target="_blank"
+                >
+                  Application Github Repository
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
           <h3>Video Production, Editing and Graphic design</h3>
           <div>
-          <img src={YouTube} alt="YouTube logo" />
             <div>
               <p>
                 Through my short experience actively trying to create YouTube
                 content I learned many things; such as branding, many elements
-                of Graphic Design, Video production from scripting to lighting and
-                storyboarding as well as creating a workflow to carry an idea
-                from inception to final product. I wouldn’t call myself an
+                of Graphic Design, Video production from scripting to lighting
+                and storyboarding as well as creating a workflow to carry an
+                idea from inception to final product. I wouldn’t call myself an
                 expert in these by any means however I did develop many life
                 long skills through the process. And peeking at 900 and change
                 subscribers before starting school and becoming too busy to
@@ -146,7 +183,7 @@ const LinksPage = (props) => {
                 </a>
               </p>
             </div>
-            
+            <img src={YouTube} alt="YouTube logo" />
           </div>
         </section>
       </LINKSTYLES>
