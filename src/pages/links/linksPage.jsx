@@ -94,10 +94,7 @@ const LinksPage = (props) => {
           <div>
             <div>
               <p>
-                the purpose of this app is to provide a way to use firebase
-                authentication to host a service to easily fill reviews for
-                products and save to the firebase RTDB system. the seperate
-                application
+              the purpose of this app is to provide a way to use firebase authentication to host a service to easily fill reviews for products and save to the firebase RTDB system. the separate application 
                 <a
                   href="https://greenreview.netlify.app/?productID=1234"
                   target="_blank"
@@ -105,13 +102,9 @@ const LinksPage = (props) => {
                   {" "}
                   (Link){" "}
                 </a>
-                uses the API to populate its view using GET requests in the URL
-                to dynamically populate the web page based on Json data received
-                from the firebase Database.
+                uses the API to populate its view using GET requests in the URL to dynamically populate the web page based on JSON data received from the firebase Database.
                 <br />
-                <br /> the Application is designed to utilize QR codes in retail
-                Store to provide the customers quick access to a generally
-                accepted product review
+                <br /> the Application is designed to utilize QR codes in the retail Store to provide the customers quick access to a generally accepted product review.
               </p>
               <p>
                 <a

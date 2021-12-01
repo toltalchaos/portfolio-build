@@ -78,14 +78,7 @@ function sendHome(){
         </div>
          <div>
             <h2>-Summary-</h2>
-            <p>Excited young Software Developer experienced
-with multi-platform tools with numerous stacks
-focused on accessibility, effective integration
-following best practices, and responsive
-efficient allocation of resources. Confident in
-many programing languages and motivated to
-learn more development technologies by
-experimenting and innovating.</p>
+                <p>Excited young Software Developer experienced with multi-platform tools with numerous stacks focused on accessibility, effective integration following best practices, and responsive efficient allocation of resources. Confident in many programming languages and motivated to learn more development technologies by experimenting and innovating.</p>
 
         </div> 
     </HEADER>
