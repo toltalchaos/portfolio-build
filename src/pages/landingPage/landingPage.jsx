@@ -96,13 +96,13 @@ const LandingPage = (props) => {
             <h3>About</h3>
             <div>
                 <img src={SideHeadshot} alt="photo of NAIT logo" />
-                <p>&emsp;&emsp;  Worked in a supervisor/team management position for many years in various labor jobs before going to school (NAIT) to achieve a diploma in Computer Software Development. During my time at NAIT, I was given the opportunity to work with teams to develop full-scale applications as well as assigned individual tasks to develop applications using many different stacks and languages. I am most proficient in JavaScript, C#, Java, and SQL languages.</p>
+                <p> Worked in supervisor/team management roles for many years in various labor jobs before going to school (NAIT) to obtain a diploma in Computer Software Development. During my time at NAIT, I was given the opportunity to work with teams to develop full-scale applications as well as assigned individual tasks developing applications using many different stacks and languages. I am most proficient in JavaScript, C#, Java, and SQL languages.</p>
             </div>
         </section>
         <section>
             <h3>Education</h3>
             <div>
-                <p>&emsp;&emsp;Completed a two-year Computer Software Development diploma from NAIT (Northern Alberta Institute of Technology) in this time I have had the opportunity to work with many programming languages and developmental technologies focusing on creating full-stack applications working with many different kinds of development processes.</p>
+                <p>Completed a two-year Computer Software Development diploma from NAIT (Northern Alberta Institute of Technology).  In this time I have had the opportunity to work with many programming languages and developmental technologies, focusing on creating full-stack applications and working with many different kinds of development processes. such as an Agile/iterative scrum based project workflow.</p>
                 <img src={NaitLogo} alt="photo of NAIT logo" />
             </div>
         </section>
@@ -110,7 +110,7 @@ const LandingPage = (props) => {
             <h3>This Web Portfolio</h3>
             <div>
                 <img src={ReactLogo} alt="React logo" />
-                <p>&emsp;&emsp;This is a website portfolio that has been built using a react framework designed and developed with a mobile-first approach focusing on accessibility for screen readers and non-aggressive color and font formatting. The images in this website have been optimized for the web using exclusively “.Webp” and ".Png" file formatting. The website is hosted from Netlify linked to my personal Github repo for this portfolio.</p>
+                <p>This is a website portfolio that has been built using a react framework designed and developed with a mobile-first approach focusing on accessibility for screen readers and non-aggressive color and font formatting. The images in this website have been optimized for the web using exclusively “.Webp” and ".Png" file formatting. The website is hosted from Netlify linked to my personal Github repo for this portfolio.</p>
             </div>
         </section>
         <section>

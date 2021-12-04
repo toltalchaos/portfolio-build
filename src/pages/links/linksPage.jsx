@@ -94,7 +94,7 @@ const LinksPage = (props) => {
           <div>
             <div>
               <p>
-              the purpose of this app is to provide a way to use firebase authentication to host a service to easily fill reviews for products and save to the firebase RTDB system. the separate application 
+              The purpose of this app is to provide a way to use Firebase authentication to host a service to easily fill reviews for products and save to the Firebase RTDB system. the separate application 
                 <a
                   href="https://greenreview.netlify.app/?productID=1234"
                   target="_blank"
@@ -102,9 +102,9 @@ const LinksPage = (props) => {
                   {" "}
                   (Link){" "}
                 </a>
-                uses the API to populate its view using GET requests in the URL to dynamically populate the web page based on JSON data received from the firebase Database.
+                uses the API to populate its view using GET requests in the URL to dynamically populate the web page based on JSON data received from the Firebase database.
                 <br />
-                <br /> the Application is designed to utilize QR codes in the retail Store to provide the customers quick access to a generally accepted product review.
+                <br /> The application is designed to utilize QR codes in the retail store to provide customers quick access to a generally accepted product review.
               </p>
               <p>
                 <a
@@ -124,22 +124,22 @@ const LinksPage = (props) => {
           <img src={AndroidLogo} alt="default android application logo" />
             <div>
               <p>
-                this application written in Java android is designed to
+                This application written in Java Android is designed to
                 demonstrate how to leverage the NFC capabilities to create
                 messages holding multiple records so the user can save and store
                 usernames and passwords.
                 <br />
                 <br />
-                the user has the ability to enter a username and password on the
+                The user has the ability to enter a username and password on the
                 main activity screen and is given the option to write the
-                credentials to an NFC chip. at which point the application will
+                credentials to an NFC chip. At which point the application will
                 use the NFC capabilities within the phone to save those
-                credentials. once card with saved credentials is scanned the
+                credentials. Once card with saved credentials is scanned the
                 application will fill in the fields appropriately.
                 <br />
                 <br />
-                the user also has the option to "log in" using the given or
-                scanned credentials at which point the application will use an
+                The user also has the option to "log in" using the given or
+                scanned credentials. At which point the application will use an
                 SQLite database to retrieve any saved credentials into a
                 populated list for the user to then choose from to write onto
                 the NFC card or add to the list.
@@ -160,15 +160,12 @@ const LinksPage = (props) => {
           <div>
             <div>
               <p>
-                Through my short experience actively trying to create YouTube
-                content I learned many things; such as branding, many elements
-                of Graphic Design, Video production from scripting to lighting
-                and storyboarding as well as creating a workflow to carry an
-                idea from inception to final product. I wouldn’t call myself an
-                expert in these by any means however I did develop many life
-                long skills through the process. And peeking at 900 and change
-                subscribers before starting school and becoming too busy to
-                pursue YouTube I am very proud of the content I made.
+                Through my short experience actively creating YouTube
+                content, I learned many things such as branding, many elements
+                of graphic design, video production from scripting to lighting
+                and storyboarding. As well creating a workflow to carry an
+                idea from inception to final product.
+                 I am very proud of the content I made and skills i developed along the way.
               </p>
               <p>
                 <a href="https://www.youtube.com/toltalchaos" target="_blank">
