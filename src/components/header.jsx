@@ -77,8 +77,8 @@ function sendHome(){
             <p>Full Stack Engineer</p>
         </div>
          <div>
-            <h2>-Summary-</h2>
-                <p>Excited young Software Developer experienced with multi-platform tools with numerous stacks focused on accessibility, effective integration following best practices, responsive and efficient allocation of resources. Confident in many programming languages and motivated to learn more development technologies.</p>
+                <h2>-Summary-</h2>
+                <p>Excited young Software Developer experienced with multi-platform tools with numerous stacks focused on accessibility, effective integration following best practices, responsive and efficient allocation of resources. Confident and skilled in many programming languages and motivated to learn more development technologies.</p>
 
         </div> 
     </HEADER>
