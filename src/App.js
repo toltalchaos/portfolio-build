@@ -8,6 +8,7 @@ import { Colors } from './components/constValues';
 import AboutPage from './pages/aboutPage/aboutPage';
 import ContactPage from './pages/Contact/contact';
 import LinksPage from './pages/links/linksPage';
+import WorkHistory from './pages/workHistory/workHistory';
 
 const APPSTYLE = styled.div`
 background-color: ${Colors.slateGrey};
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path="/links">
           <LinksPage/>
+        </Route>
+        <Route exact path="/workhistory">
+          <WorkHistory/>
         </Route>
         <Route exact path="/about">
           <AboutPage/>

@@ -58,12 +58,16 @@ const NavDeck = (props) => {
         let path = '/links';
         history.push(path)
     }
-    function aboutRedirect(){
-        let path = '/about';
+    function workRedirect(){
+        let path = '/workhistory';
         history.push(path)
     }
     function contactRedirect(){
         let path = '/contact';
+        history.push(path)
+    }
+    function homeRedirect(){
+        let path = '/';
         history.push(path)
     }
 
@@ -72,9 +76,10 @@ const NavDeck = (props) => {
         <Sticky>
              <NAVDECK>
             <ul>
+                <li onClick={homeRedirect}> Home </li>
                 <li onClick={gitRedirect}> GitHub </li>
                 <li onClick={linksRedirect}>Projects</li>
-                {/* <li onClick={aboutRedirect}>about/hobbies</li> */}
+                <li onClick={workRedirect}>Work History</li>
                 <li onClick={contactRedirect}>Contact</li>
             </ul>
          </NAVDECK>
