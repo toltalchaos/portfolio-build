@@ -7,6 +7,7 @@ import ReactLogo from '../../components/images/react-logo.png';
 import ResumePDF from '../../components/PDFs/BraydonResume.pdf';
 import DeansHonorLetter from '../../components/PDFs/deans-honorrole.pdf';
 import SideHeadshot from '../../components/images/headshots/Optimized-IMG_8442.webp'
+import Transcript from '../../components/PDFs/official-transcript.pdf'
 
 const MAINPAGE = styled.div`
 background-color: ${Colors.gunPurpGrey};
@@ -20,11 +21,14 @@ border-radius: 3rem;
     background-color: ${Colors.lightLavender};
     color: ${Colors.slateGrey};
     border-radius: 1rem;
+    min-width: 50%;
+    text-align: center;
 } 
 .pdf:hover{
     cursor: pointer;
     background-color: ${Colors.lightGrey};
 }
+
 h3{
     margin: 0 auto;
     text-align: center;
@@ -51,6 +55,10 @@ section{
             line-height: 1.25rem;
         }
     }
+    .pdf-container{
+    flex-direction: column;
+    }
+
     img{
         margin: 0.5rem;
         border-radius: 1rem;
@@ -61,7 +69,15 @@ section{
 @media(min-width:800px){
     section{
         max-width: 50%;
+        .pdf-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 50%;
     }
+    }
+
+
+
 }
 @media(min-width: 500px){
     section{
@@ -81,15 +97,19 @@ const LandingPage = (props) => {
     function openDiploma() {
         window.open(DeansHonorLetter)
     }
+    function openTranscript(){
+        window.open(Transcript)
+    }
 
 
 
     return (<MAINPAGE>
 
         <section>
-            <div>
+            <div className='pdf-container'>
                 <p className='pdf' onClick={openResume}>RESUME</p>
                 <p className='pdf' onClick={openDiploma}>DEANS HONOR ROLE LETTER</p>
+                <p className='pdf' onClick={openTranscript}>TRANSCRIPT</p>
             </div>
         </section>
         <section>

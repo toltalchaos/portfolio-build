@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.901fe4dd.chunk.css",
-    "main.js": "/static/js/main.b4263c98.chunk.js",
-    "main.js.map": "/static/js/main.b4263c98.chunk.js.map",
+    "main.js": "/static/js/main.1a1fc16a.chunk.js",
+    "main.js.map": "/static/js/main.1a1fc16a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f98497a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.f98497a6.js.map",
     "static/js/2.3c2cc549.chunk.js": "/static/js/2.3c2cc549.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/deans-honorrole.f221df11.pdf": "/static/media/deans-honorrole.f221df11.pdf",
     "static/media/lenbethLogo.8e101978.png": "/static/media/lenbethLogo.8e101978.png",
     "static/media/logo2.03dfb081.png": "/static/media/logo2.03dfb081.png",
+    "static/media/official-transcript.998cdb22.pdf": "/static/media/official-transcript.998cdb22.pdf",
     "static/media/react-logo.e67fc797.png": "/static/media/react-logo.e67fc797.png",
     "static/media/stonks.e1226e07.webp": "/static/media/stonks.e1226e07.webp",
     "static/media/youtube.5d2f7e0c.png": "/static/media/youtube.5d2f7e0c.png"
@@ -27,6 +28,6 @@
     "static/js/runtime-main.f98497a6.js",
     "static/js/2.3c2cc549.chunk.js",
     "static/css/main.901fe4dd.chunk.css",
-    "static/js/main.b4263c98.chunk.js"
+    "static/js/main.1a1fc16a.chunk.js"
   ]
 }
