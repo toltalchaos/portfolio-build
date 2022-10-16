@@ -5,6 +5,8 @@ import Stonks from '../../components/images/stonks.webp';
 import TestQR from '../../components/images/testProductQR.png';
 import YouTube from '../../components/images/youtube.png';
 import AndroidLogo from '../../components/images/android-logo.png';
+import DrivewyzeLogo from '../../components/images/Drivewyze-logo.webp';
+
 
 const LINKSTYLES = styled.div`
 background-color: ${Colors.gunPurpGrey};
@@ -67,6 +69,46 @@ section{
 const LinksPage = (props) => {
     return (
       <LINKSTYLES>
+      {/* <section>
+          <h3>title</h3>
+          <div>
+            <img src={null} alt="" />
+            <div>
+              <p>
+               description
+              </p>
+              <p>
+                <a
+                  href="link-src"
+                  target="_blank"
+                >
+                  link-text
+                </a>
+              </p>
+            </div>
+          </div>
+        </section> */}
+        <section>
+          <h3>EPIC/AVID</h3>
+          <p>(Autonomous vehicle inspection database/EnhancedPre-trip Inspection Client)</p>
+          <div>
+            <div>
+              <p>
+              EPIC is A front end react built application interface with a focus on accessibility and best practices for AVID
+                government certified users to utilize the REST API for ensuring autonomous vehicle safety on roadways.
+              </p>
+              <p>
+                <a
+                  href="https://drivewyze.com"
+                  target="_blank"
+                >
+                  Drivewyze.com
+                </a>
+              </p>
+            </div>
+            <img src={DrivewyzeLogo} alt="Drivewyze logo" />
+          </div>
+        </section>
         <section>
           <h3>Stock Trading Algorithm .NET Console Application</h3>
           <div>

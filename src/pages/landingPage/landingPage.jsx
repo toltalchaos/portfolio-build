@@ -138,14 +138,18 @@ const LandingPage = (props) => {
             <div>
                 <ul>
                     <li>- C#,  .NET, ASP, Razor, Framework, Core</li>
+                    <li>- Python, Django, and other various python based libraries</li>
                     <li>- JavaScript, Node.js, ReactJS, Svelte, Angular, Typescript</li>
-                    <li>- SQL/PLSQL/NoSQL/SQLite</li>
+                    <li>- SQL, PLSQL, PgSql, NoSQL, SQLite</li>
                     <li>- GIT(DVCS)</li>
                     <li>- HTML5</li>
                     <li>- CSS</li>
                     <li>- Java, EE, Android, Kotlin</li>
                     <li>- Adobe, photoshop, premier, lightroom, illustrator</li>
                     <li>- Microsoft Office</li>
+                    <li>- Jira, Confluince, Miro</li>
+                    <li>- Netlify, Heroku, Google firebase</li>
+                    <li>- AWS, EC2, RDS, S3</li>
                 </ul>
                 <img src={CodeLogo} alt="photoshoped logo" />
             </div>

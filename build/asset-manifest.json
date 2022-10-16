@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.901fe4dd.chunk.css",
-    "main.js": "/static/js/main.1a1fc16a.chunk.js",
-    "main.js.map": "/static/js/main.1a1fc16a.chunk.js.map",
+    "main.js": "/static/js/main.cbf9b967.chunk.js",
+    "main.js.map": "/static/js/main.cbf9b967.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f98497a6.js",
     "runtime-main.js.map": "/static/js/runtime-main.f98497a6.js.map",
     "static/js/2.3c2cc549.chunk.js": "/static/js/2.3c2cc549.chunk.js",
@@ -10,7 +10,8 @@
     "index.html": "/index.html",
     "static/css/main.901fe4dd.chunk.css.map": "/static/css/main.901fe4dd.chunk.css.map",
     "static/js/2.3c2cc549.chunk.js.LICENSE.txt": "/static/js/2.3c2cc549.chunk.js.LICENSE.txt",
-    "static/media/BraydonResume.75125c65.pdf": "/static/media/BraydonResume.75125c65.pdf",
+    "static/media/BraydonResume.94e62bf2.pdf": "/static/media/BraydonResume.94e62bf2.pdf",
+    "static/media/Drivewyze-logo.6fe1e8b9.webp": "/static/media/Drivewyze-logo.6fe1e8b9.webp",
     "static/media/EdmontonLogo.c6f3ca33.jpg": "/static/media/EdmontonLogo.c6f3ca33.jpg",
     "static/media/NaitLogo.d9b09680.webp": "/static/media/NaitLogo.d9b09680.webp",
     "static/media/Optimized-IMG_8442.19c470b6.webp": "/static/media/Optimized-IMG_8442.19c470b6.webp",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.f98497a6.js",
     "static/js/2.3c2cc549.chunk.js",
     "static/css/main.901fe4dd.chunk.css",
-    "static/js/main.1a1fc16a.chunk.js"
+    "static/js/main.cbf9b967.chunk.js"
   ]
 }

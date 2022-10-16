@@ -55,7 +55,7 @@ const NavDeck = (props) => {
         window.open("https://github.com/toltalchaos")
     }
     function linksRedirect(){
-        let path = '/links';
+        let path = '/projects';
         history.push(path)
     }
     function workRedirect(){
