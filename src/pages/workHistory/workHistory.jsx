@@ -88,10 +88,7 @@ const WorkHistory = (props) => {
           <div>
             <p>
               2021 - current <br /><br />
-              Worked as part of an agile team building and maintaining Django based back end microservices. To deliver safety
-              information to commercial drivers and communicate with state authorities in accordance to local laws. Safely
-              handling sensitive data between government level partners and customers ranging through traditional commercial
-              class vehicles to autonomous commercial vehicles on public roadways.
+              Work as part of an agile team building and maintaining Django-based back-end microservices. To deliver safety information to commercial drivers and communicate with state authorities in accordance with local laws. We are safely handling sensitive data between government-level partners and customers ranging from traditional commercial class vehicles to autonomous commercial vehicles on public roadways.
             </p>
           </div>
           <a href="https://drivewyze.com/" target="_blank"><img src={DrivewyzeLogo} alt="Drivewyze logo" /></a>
