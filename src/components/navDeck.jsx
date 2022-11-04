@@ -22,10 +22,10 @@ ul{
     
     text-align: center;
    
-    top:1rem;
+    
     li{
-        padding: 1rem;
-        min-width: 4rem;
+        padding: 0.5rem;
+        min-width: 1rem;
         border-radius: 0.5rem;
     }
     li:hover{
@@ -35,8 +35,12 @@ ul{
 }
 @media(min-width: 800px){
     ul{
-       
+        top:1rem;
         justify-content: space-evenly;
+        li{
+            padding: 1rem;
+            min-width: 4rem;
+        }
     }
 }
 @media(min-width: 500px){

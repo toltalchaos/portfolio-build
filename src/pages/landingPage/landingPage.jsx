@@ -116,7 +116,7 @@ const LandingPage = (props) => {
             <h3>About</h3>
             <div>
                 <img src={SideHeadshot} alt="photo of NAIT logo" />
-                <p> Worked in supervisor/team management roles for many years in various labor jobs before going to school (NAIT) to obtain a diploma in Computer Software Development. During my time at NAIT, I was given the opportunity to work with teams to develop full-scale applications as well as assigned individual tasks developing applications using many different stacks and languages. I am most proficient in JavaScript, C#, Java, and SQL languages.</p>
+                <p> Worked in supervisor/team management roles for many years in various labor jobs before going to school (NAIT) to obtain a diploma in Computer Software Development. During my time at NAIT, I was given the opportunity to work with teams to develop full-scale applications as well as assigned individual tasks developing applications using many different stacks and languages.</p>
             </div>
         </section>
         <section>

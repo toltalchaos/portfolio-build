@@ -115,7 +115,7 @@ const WorkHistory = (props) => {
               Ensuring trucks are loaded with appropriate equipment, communicating to team members work tasks to be completed, making sure all daily job tasks are completed to company standard and that job is done completely in accordance with JFLA, ensuring all paperwork is completed accurately and timely.  Documenting worksite conditions and documenting all communication to stakeholders.
             </p>
           </div>
-          <img src={LenbethLogo} alt="Lwnbeth Weepingtile logo" />
+          <img src={LenbethLogo} alt="Lenbeth Weepingtile logo" />
         </div>
       </section>
       <section>
