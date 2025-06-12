@@ -5,8 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+(good idea to use NVM to manage the current node version as this is now old and needs package upgrades)
 
-### `npm start`
+### `nvm use 16 && npm i --legacy-peer-deps`
+### `nvm use 16 && npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
